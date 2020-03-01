@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="SUPERIOR" size="5.000000 5.000000"/>
+        <ImageTarget name="IZQUIERDO" size="5.000000 7.998236"/>
+        <ImageTarget name="DETRAS" size="5.000000 7.998236"/>
+        <ImageTarget name="DERECHO" size="5.000000 7.998236"/>
+        <ImageTarget name="FRONTAL" size="5.000000 7.998236"/>
+        <ImageTarget name="Captura" size="1.000000 1.923387"/>
+        <ImageTarget name="empaque.Top" size="5.000000 5.000000"/>
+        <ImageTarget name="empaque.Left" size="5.000000 7.998236"/>
+        <ImageTarget name="empaque.Front" size="5.000000 7.998236"/>
+        <ImageTarget name="empaque.Right" size="5.000000 7.998236"/>
+        <ImageTarget name="empaque.Back" size="5.000000 7.998236"/>
+        <MultiTarget name="empaque">
+            <Part name="empaque.Left" translation="-2.5 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="empaque.Right" translation="2.5 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="empaque.Front" translation="0 0 2.5" rotation="AD: 1 0 0 0"/>
+            <Part name="empaque.Back" translation="0 0 -2.5" rotation="AD: 0 1 0 180"/>
+            <Part name="empaque.Top" translation="0 4.0 0" rotation="AD: 1 0 0 -90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
